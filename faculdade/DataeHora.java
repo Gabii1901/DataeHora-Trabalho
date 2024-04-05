@@ -1,39 +1,39 @@
-/* package iniciandoJava;
+	/*package faculdade;
 
-	import java.time.DayOfWeek;
-	import java.time.LocalDate;
-	import java.time.format.DateTimeFormatter;
-	import java.time.format.TextStyle;
-	import java.util.Locale;
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.format.TextStyle;
+import java.util.Locale;
 
-	public class DataeHora {
-	    public static String obterDataPorExtenso() {
-	        
-	        LocalDate hoje = LocalDate.now();
+public class DataeHora {
+    public static String obterDataPorExtenso() {
+        
+        LocalDate hoje = LocalDate.now();
 
-	        
-	        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR"));
-	        String dataFormatada = hoje.format(formatter);
+        
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR"));
+        String dataFormatada = hoje.format(formatter);
 
-	        
-	        DayOfWeek diaSemana = hoje.getDayOfWeek();
-	        String diaSemanaExtenso = diaSemana.getDisplayName(TextStyle.FULL, new Locale("pt", "BR"));
+        
+        DayOfWeek diaSemana = hoje.getDayOfWeek();
+        String diaSemanaExtenso = diaSemana.getDisplayName(TextStyle.FULL, new Locale("pt", "BR"));
 
-	        
-	        int hora = java.time.LocalTime.now().getHour();
-	        int minutos = java.time.LocalTime.now().getMinute();
+        
+        int hora = java.time.LocalTime.now().getHour();
+        int minutos = java.time.LocalTime.now().getMinute();
 
-	        
-	        String dataPorExtenso = String.format("Hoje é %s, %s e agora são %d horas e %d minutos.", diaSemanaExtenso, dataFormatada, hora, minutos);
+        
+        String dataPorExtenso = String.format("Hoje é %s, %s e agora são %d horas e %d minutos.", diaSemanaExtenso, dataFormatada, hora, minutos);
 
-	        return dataPorExtenso;
-	    }
+        return dataPorExtenso;
+    }
 
-	    public static void main(String[] args) {
-	        String dataExtensa = obterDataPorExtenso();
-	        System.out.println(dataExtensa);
-	    }
-	}
+    public static void main(String[] args) {
+        String dataExtensa = obterDataPorExtenso();
+        System.out.println(dataExtensa);
+    }
+}
 
 --------------------------------------------------------------------------------------------------	
 
@@ -83,8 +83,8 @@
 	        }
 	    }
 	}
-*/
-package faculdade;
+
+	*/
 
 
 
